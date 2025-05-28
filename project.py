@@ -22,7 +22,7 @@ while True:
        for i, t in enumerate(tasks):
            status = 'Done' if t['done'] else 'Not Done'
 
-   elif choice == '3':
+   elif choice == '3': 
        index = int(input("Enter task number to mark done: ")) - 1
        if 0 <=index < len(tasks):
            tasks[index]['done'] = True
